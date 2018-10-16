@@ -1,7 +1,7 @@
 # Make your shoe class here!
 
 class Shoe
-  attr_accessor :brand, :page_count, :genre
+  attr_accessor :brand, :color, :size, :material, :condition
   
   def cobble
     puts "Flipping the page...wow, you read fast!"
